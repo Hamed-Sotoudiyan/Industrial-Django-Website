@@ -1,0 +1,250 @@
+{% extends 'layouts.html' %}
+
+{% load static %}
+
+{% block title %}
+  صفحه اصلی
+{% endblock %}
+
+{% block content %}
+<section id="hero">
+  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    <div class="carousel-inner" role="listbox">
+
+
+      <!-- Slide 1 -->
+
+      <div class="carousel-item active" style="background-image: url({% static 'img/Factory/11.jpg' %})">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animate__animated animate__fadeInDown">به سایت کارخانه فولادسازان جویبار خوش آمدید</h2>
+            <p class="animate__animated animate__fadeInUp">تولید کننده انواع ورق، میلگرد و قطعات آلیاژی</p>
+            <p class="animate__animated animate__fadeInUp">ورق از ضخامت 30 الی 100 میلی متر، میلگرد از سایز 50 الی 300 میلیمتر</p>
+            <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url({% static 'img/Factory/12.jpg' %})">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animate__animated animate__fadeInDown">سال تولید، پشتیبانی ها، مانع زدایی ها</h2>
+            <p class="animate__animated animate__fadeInUp">تلفیق بهترین نرم افزار و سخت افزار در کنار نیروی انسانی توانمند، در جهت تولید محصولات آلیاژی با سطح ارزش افزوده بالا و بی نیاز کردن کشور از واردات این قطعات</p>
+            <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url({% static 'img/Factory/13.jpg' %})">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animate__animated animate__fadeInDown">مصاحبه خبرنگاران با دکتر حمیدرضا ستودیان رئیس هیئت مدیره فولاد سازان جویبار</h2>
+            <p class="animate__animated animate__fadeInUp">شرکت فولاد سازان جویبار از جمله مجموعه‌های غنی و سرشار از نیروی انسانی توانمند و متخصص در کشور است که این مزیت باعث شده تا حمید رضا ستودیان، رئیس هیات مدیره شرکت فولاد سازان جویبار، به موفقیت بزرگی در کنار دانش و استفاده از نرم افزار و سخت افزارهای قوی دست پیدا کند.</p>
+            <a target="_blank" href="https://www.aparat.com/v/XAU4a/" class="btn-get-started animate__animated animate__fadeInUp scrollto">مشاهده ویدئوی مصاحبه</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+
+  </div>
+</section><!-- End Hero -->
+
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+
+  <div class="container">
+
+    <div class="row content">
+      <div class="col-lg-6">
+        <h2>کیمیاگری، پیشه ماست</h2>
+        <h3>حاصل دست های پر تلاش خانواده فولادسازان جویبار، تبدیل آهن قراضه به محصولاتی بسیار با ارزش است</h3>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0">
+        <ul>
+          <li><i class="ri-check-double-line"></i> 36CrNiMo4 , Mo40 , Ck60 , Ck45</li>
+          <li><i class="ri-check-double-line"></i> 18CrNi8 , 16MnCr5</li>
+          <li><i class="ri-check-double-line"></i> 50NiCr13 , 60WCrv7 , 115Crv3 , 100Cr6</li>
+          <li><i class="ri-check-double-line"></i> 56NiCrMov7 , 21CrMo10</li>
+          <li><i class="ri-check-double-line"></i> 509Crv4 , 55Cr3</li>
+          <li><i class="ri-check-double-line"></i> St52 , 70Cr2</li>
+          <li><i class="ri-check-double-line"></i> Stainless Steel .304 .316 Duplex</li>
+          <li><i class="ri-check-double-line"></i> VCN , 1.7131</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients section-bg">
+  <div class="container">
+
+    <div class="row">
+
+      <!-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+      </div> -->
+
+    </div>
+
+  </div>
+</section><!-- End Clients Section -->
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+  <div class="container">
+
+    <div class="row">
+      <h2 style="text-align: center;">
+        قیمت لحظه ای ارز، فلزات گرانبها و پایه
+      </h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <tgju
+          type="ticker-tap"
+          items="137203,137205,137207,137206,137225"
+          columns="dot"
+          speed="35"
+          token="webservice"
+      ></tgju>
+      <script src="https://api.accessban.com/v1/widget/v2" defer></script>
+      <br>
+      <br>
+      <br>
+      <tgju
+          type="ticker"
+          items="137119,137123,137122,137133,137119"
+          columns="dot"
+          token="webservice"
+      ></tgju>
+      <script src="https://api.accessban.com/v1/widget/v2" defer></script>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <tgju
+      	type="market-overview"
+      	items="131419,131420,239614,239615,239616,131439"
+      	columns="dot"
+      	token="webservice"
+      ></tgju>
+      <script src="https://api.accessban.com/v1/widget/v2" defer></script>
+      <tgju
+          type="market-data"
+          items="398097,398096,535605,398115,398102"
+          columns="dot,diff,low,high,time"
+          token="webservice"
+      ></tgju>
+      <script src="https://api.accessban.com/v1/widget/v2" defer></script>
+      <!-- <div class="col-md-6">
+        <div class="icon-box">
+          <i class="bi bi-currency-dollar"></i>
+          <h4>خرید دلار آمریکا</h4>
+          <p>تومان {{Dollar}}</p>
+        </div>
+      </div> -->
+      <!-- <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-currency-euro"></i>
+          <h4>یورو</h4>
+            <p>تومان {{Euro}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-cash"></i>
+          <h4>درهم امارات</h4>
+            <p>تومان {{Derham}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-cash"></i>
+          <h4>لیر ترکیه</h4>
+            <p>تومان {{Lira}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-cash"></i>
+          <h4>یوآن چین</h4>
+            <p>تومان {{Yuan}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-cash"></i>
+          <h4>دلار کانادا</h4>
+            <p>تومان {{Canadian_Dollar}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-currency-pound"></i>
+          <h4>پوند انگلستان</h4>
+            <p>تومان {{Pound}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-currency-bitcoin"></i>
+          <h4>بیت کوین</h4>
+            <p>دلار آمریکا {{Bitcoin}}</p>
+        </div>
+      </div> -->
+      <!-- <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-calendar4-week"></i>
+          <h4><a href="#">Eiusmod Tempor</a></h4>
+          <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+        </div>
+      </div> -->
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+
+
+{% endblock %}
